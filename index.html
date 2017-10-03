@@ -31,7 +31,11 @@
       <div class="tab-content">
         <!-- inicia tab día 1 -->
        <div id="dia1" class="tab-pane fade in active">
-          <h2 class= "headCalendar inMorning" id="horaM" data-toggle="collapse" data-target="#collapse1">MAÑANA <span id="spanM1" class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+          <h2 class= "headCalendar" id="horaM" data-toggle="collapse" data-target="#collapse1">
+            <!-- <span class="inMorning">MAÑANA</span> -->
+            <span id="spanM1" class="inMorning glyphicon glyphicon-minus" aria-hidden="true">
+            MAÑANA
+            </span></h2>
           <div id="collapse1" class="collapse in">
               <p class="text-intro"> <strong>8:00 am Recibimiento y acreditación de participantes</strong></p>
             <div class="panel-body">
@@ -98,7 +102,9 @@
                </table>
             </div>
           </div>
-           <h2 class= "headCalendar inEvening" id="horaT" data-toggle="collapse" data-target="#collapse2">TARDE <span id="spanT1" class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+           <h2 class= "headCalendar" id="horaT" data-toggle="collapse" data-target="#collapse2">
+             <span class="inEvening">TARDE</span>
+             <span id="spanT1" class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
             <div id="collapse2" class="collapse in">
             <div class="panel-body">
                <table  id="myTable2" class="table table-responsive table-bordered">
@@ -112,52 +118,52 @@
                  </thead>
                  <tbody>
                    <tr>
-                     <td>Espacio 1</td>
+                     <td class="salaT">Sala 1</td>
                      <td class="enlace-modal" id="v17">Explorando Nuevas Tecnologías (MEP)</td>
                      <td class="enlace-modal" id="v17a">Explorando Nuevas Tecnologías (MEP)</td>
                      <td class="enlace-modal" id="v17b">Explorando Nuevas Tecnologías (MEP)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 2</td>
+                    <td class="salaT">Sala 2</td>
                      <td colspan="3" class="enlace-modal" id="v132">Seguidor de línea con obstáculos (UNA)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 3</td>
+                     <td class="salaT">Sala 3</td>
                      <td class="enlace-modal" id="v50I">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50J">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50K">Aprendiendo Robótica Juntos (FOD)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 4</td>
+                     <td class="salaT">Sala 4</td>
                      <td class="enlace-modal" id="v50L">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50M">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50N">Aprendiendo Robótica Juntos (FOD)</td>
                   </tr>
                    <tr>
-                     <td>Espacio 5</td>
+                     <td class="salaT">Sala 5</td>
                      <td class="enlace-modal" id="v50O">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50P">Aprendiendo Robótica Juntos (FOD)</td>
                      <td class="enlace-modal" id="v50Q">Aprendiendo Robótica Juntos (FOD)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 6</td>
+                     <td class="salaT">Sala 6</td>
                      <td colspan="3" class="enlace-modal" id="v30">Hotel Inteligente (U Latina)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 7</td>
+                     <<td class="salaT">Sala 7</td>
                      <td colspan="3" class="enlace-modal" id="v1t">Interacción Humano Robot en un ambiente común (UTN)</td>
                    </tr>
                    <tr>
-                     <td>Espacio 8</td>
+                     <td class="salaT">Sala 8</td>
                       <td colspan="3" class="enlace-modal" id="v11">Conozcamos la Robótica: Seguidor en línea (UNED)</td>
                    </tr>
                    <tr>
-                      <td>Espacio 9</td>
+                      <td class="salaT">Sala 9</td>
                       <td class="enlace-modal" id="v90">Charla STEM (NI)</td>
                       <td colspan="2" class="enlace-modal" id="v70">Taller práctico de MyRIO (NI)</td>
                     </tr>
                    <tr>
-                     <td>Espacio 10</td>
+                     <td class="salaT">Sala 10</td>
                      <td colspan="3" class="enlace-modal" id="v40">Arduinos con reciclaje (U Latina)</td>
                    </tr>
                  </tbody>
@@ -167,8 +173,11 @@
        </div>  <!-- fin tab día 1 -->
       <!--  inicia tab día 2-->
        <div id="dia2" class="tab-pane fade">
-            <h2 class= "headCalendar inMorning" id="horaM2" data-toggle="collapse" data-target="#collapse12">MAÑANA
-              <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+            <h2 class= "headCalendar" id="horaM2" data-toggle="collapse" data-target="#collapse12">
+              <!-- <span class="inMorning">MAÑANA</span> -->
+              <span class="glyphicon glyphicon-minus" aria-hidden="true">
+                MAÑANA
+              </span></h2>
             <div id="collapse12" class="collapse in">
                 <p> 8:00am Recibimiento y acreditación de participantes</p>
               <div class="panel-body">
@@ -229,7 +238,10 @@
                  </table>
               </div>
             </div>
-              <h2 class= "headCalendar inEvening" id="horaT2" data-toggle="collapse" data-target="#collapse22">TARDE <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+              <h2 class= "headCalendar" id="horaT2" data-toggle="collapse" data-target="#collapse22">
+                <span class="inEvening">TARDE</span>
+                <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+              </h2>
               <div id="collapse22" class="collapse in">
               <div class="panel-body">
                  <table  id="myTable23" class="table table-responsive table-bordered">
@@ -306,8 +318,11 @@
          </div>  <!-- fin tab día 2 -->
        <!-- inicia tab día 3 -->
        <div id="dia3" class="tab-pane fade">
-            <h2 class= "headCalendar inMorning" id="horaM3" data-toggle="collapse" data-target="#collapse13">MAÑANA
-              <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+            <h2 class= "headCalendar" id="horaM3" data-toggle="collapse" data-target="#collapse13">
+              <!-- <span class="inMorning">MAÑANA</span> -->
+              <span class="inMorning glyphicon glyphicon-minus" aria-hidden="true">
+                MAÑANA
+              </span></h2>
             <div id="collapse13" class="collapse in">
                 <p> 8:00am Recibimiento y acreditación de participantes</p>
               <div class="panel-body">
@@ -365,7 +380,9 @@
                  </table>
               </div>
             </div>
-             <h2 class= "headCalendar inEvening" id="horaT3" data-toggle="collapse" data-target="#collapse23">TARDE <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
+             <h2 class= "headCalendar" id="horaT3" data-toggle="collapse" data-target="#collapse23">
+               <span class="inEvening">TARDE</span>
+               <span class="glyphicon glyphicon-minus" aria-hidden="true"></span></h2>
               <div id="collapse23" class="collapse in">
               <div class="panel-body">
                  <table  id="myTable33" class="table table-responsive table-bordered">
