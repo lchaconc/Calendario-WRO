@@ -1,0 +1,138 @@
+
+.container .well
+{
+    clear: left;
+    color: #ffffff;
+    text-align: center;
+    font-weight:bold;
+    background-color: #002538;
+
+}
+
+.encabezado {
+  background-color: #002538;
+}
+
+.well img {
+    max-width: 100%;
+    width: 20%;
+    float: left;
+    margin-top: -1.6%;
+    margin-left: 1%;
+    margin-right: -9%;
+}
+
+.lenguaje {
+    max-width: 100%;
+    /*width: 20%;*/
+    float: right;
+    margin-top: -1.6%;
+}
+h1
+{
+  margin-top: 2px;
+}
+.headCalendar {
+  cursor: pointer;
+  text-shadow: 1px 1px 0 #444;
+  color: #002538;
+}
+.text-intro {
+  color: #636362;
+}
+
+.glyphicon {
+    font-size: 50%;
+}
+
+/*Estilo de las tablas*/
+#dia1 td{
+  background-color: #cbe5f4;
+}
+#dia2 td{
+  background-color: #e3edca;
+}
+#dia3 td{
+  background-color: #fbe3c9;
+}
+thead tr th {
+  color: white;
+  font-weight: bold;
+}
+#dia1 thead tr {
+  background-color: #1f9bd9;
+}
+#dia2 thead tr  {
+  background-color: #96bf21;
+}
+#dia3 thead tr {
+  background-color: #f3910a;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+#dia1 .table-bordered>tbody>tr>td.enlace-modal {
+  background-color: #7dc4e2;
+}
+#dia2 .table-bordered>tbody>tr>td.enlace-modal {
+  background-color: #bcd788;
+}
+#dia3 .table-bordered>tbody>tr>td.enlace-modal {
+  background-color: #f7bc7c;
+}
+
+td.enlace-modal:hover {
+  cursor: pointer;
+  color: gray;
+  border: 2.5px solid #9d9d9c;
+  color: #ffffff;
+}
+.nav-tabs {
+  font-weight: bold;
+}
+
+.nav-tabs>li>a
+{
+    color: #9d9d9c;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .modal-title {
+  font-weight: bold;
+  color: #002538;
+}
+
+.modal-title {
+    text-align: center;
+    /*font-weight: bold;*/
+}
+
+.modal-content {
+    background-image: url('../images/fondo-modal.png');
+    background-repeat: repeat;
+}
+.modal-footer .btn-default:hover {
+  background-color: #c8e5f3;
+}
+
+@media only screen and (min-width: 448px) and (max-width: 750px) {
+  .well img {
+    margin-right: 1%;
+    width: 25%
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .well img {
+    margin-right: 0%;
+    width: 30%
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
