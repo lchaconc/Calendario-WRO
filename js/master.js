@@ -28,6 +28,7 @@ $(document).ready(function () {
                           "<p><strong>Requisitos:</strong> "+returnedData[0].requisitos+"</p>"+
                           "<p><strong>Horario:</strong> "+returnedData[0].horario+"</p>"+
                           "<p><strong>Cantidad de participantes:</strong> "+returnedData[0].cantidad+"</p>"+
+                          "<p><strong>Idioma:</strong> "+returnedData[0].idioma+"</p>"+
                           "<p><strong>Observaciones:</strong> "+returnedData[0].observaciones+"</p>";
               // if(returnedData[0].adjuntos !="")
               //   {texto = texto+"<p><strong>Adjuntos:</strong> "+returnedData[0].adjuntos+"</p>";}
