@@ -1,3 +1,5 @@
+var esp = true, dataEng, dataEsp;
+
 $(document).ready(function () {
   $('#myModal').modal('hide');
   $.getJSON("data/datos.json", function(datos) {
@@ -38,11 +40,8 @@ $(document).ready(function () {
         };
     }
 //Carga la funcinalidad de cambio de Idioma
-  cambiarMainTitles();
-  cargarTituloTalleres(datos);
-  addEvento();
-
-
+  dataEsp = datos;
+  loadJasonEnglish();
 
   });
 });
@@ -59,4 +58,17 @@ function collapseGlip() {
       $(elementSpan).removeClass("glyphicon-minus");
       $(elementSpan).addClass("glyphicon-plus");
   });
+}
+
+
+function loadJasonEnglish() {
+  $.getJSON( "data/datos_english.json", function( dataEng ) {
+    // callback
+
+    console.log("json en inglés cargado");
+    console.log	(dataEng);
+    caragarIdioma();
+    addEvento();
+  });
+
 }

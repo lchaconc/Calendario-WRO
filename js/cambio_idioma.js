@@ -1,23 +1,18 @@
-var esp = true;
-
-// $(function() {
-//   cambiarMainTitles();
-//   addEvento();
-// });
 
 
 function addEvento() {
   $("#btnCambiarIdioma").click(function () {
-    cambiarIdioma();
+      esp=!esp;
+      console.log(esp);
+      cambiarMainTitles();
+      cargarTituloTalleres();
   })
 }
 
 
-function cambiarIdioma() {
-  esp=!esp;
-  console.log(esp);
+function caragarIdioma() {
   cambiarMainTitles();
-
+  cargarTituloTalleres();
 }
 
 
@@ -75,30 +70,30 @@ function cambiarMainTitles() {
 }
 
 
-function cargarTituloTalleres(arreglo) {
+function cargarTituloTalleres() {
+    var titulosHtml = $(".enlace-modal"), arreglo,
+    maxTitulos = titulosHtml.length, tituloId;
 
-  var titulosHtml = $(".enlace-modal"),
-  maxTitulos = titulosHtml.length,
-  maxArreglo = arreglo.length,
-  tituloId;
+    if (esp) {
+      arreglo = dataEsp;
+    }else {
+      arreglo = dataEng;      
+    };
+     console.log(arreglo);
+     maxArreglo = arreglo.length;
 
   // console.log(arreglo[1].taller);
   // console.log(titulosHtml[1].id);
 
-  for (var i = 0; i < maxTitulos; i++) {
-    console.log(titulosHtml[i].id);
-    for (var n = 0; n < maxArreglo; n++) {
-      tituloId = titulosHtml[i].id.slice(0, 3);
-        if (tituloId == arreglo[n].id) {
-            $(titulosHtml[i]).text(arreglo[n].taller);
-            console.log(titulosHtml[i].id);
-            console.log(arreglo[n].taller);
-        }
-
+    for (var i = 0; i < maxTitulos; i++) {
+        //console.log(titulosHtml[i].id);
+          for (var n = 0; n < maxArreglo; n++) {
+            tituloId = titulosHtml[i].id.slice(0, 3);
+              if (tituloId == arreglo[n].id) {
+                $(titulosHtml[i]).text(arreglo[n].taller);
+                //console.log(titulosHtml[i].id);
+                //console.log(arreglo[n].taller);
+      }
     }
-
-}
-
-
-
+  }
 }
