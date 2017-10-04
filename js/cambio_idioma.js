@@ -24,7 +24,7 @@ function cambiarIdioma() {
 
 function cambiarMainTitles() {
   var salaM = $(".salaM"),  salaT = $(".salaT"),
-  maxSalasM=salaM.length, num,  diasTaller=$(".diasTaller");
+  maxSalasM=salaM.length, num=0,  diasTaller=$(".diasTaller");
 
   if (esp) {
     $(".main-title").text("CALENDARIO DE TALLERES");
@@ -36,9 +36,12 @@ function cambiarMainTitles() {
     $(".text-intro").text("8:00 am Recibimiento y acreditación de participantes");
     //Nombre de salas de la mañana
     for (var i = 0; i < maxSalasM; i++) {
-      num = i + 1;
+      num++;
       $(salaM[i]).text("Sala " + num);
       $(salaT[i]).text("Sala " + num);
+        if (num > 9) {
+          num=0;
+        }
     }
 
     // nombre de días
@@ -55,9 +58,12 @@ function cambiarMainTitles() {
     $(".inEvening").text("EVENING");
     $(".text-intro").text("8:00 am Participant registration and accreditation");
     for (var i = 0; i < maxSalasM; i++) {
-      num = i + 1;
+      num++;
       $(salaM[i]).text("Room " + num);
       $(salaT[i]).text("Room " + num);
+        if (num > 9) {
+          num=0;
+        }
     }
 
     // nombre de días
