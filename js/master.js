@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $('#myModal').modal('hide');
   $.getJSON("data/datos.json", function(datos) {
+    //console.log(datos);
     $(".table-responsive").click(function (e) {
        var ident = e.target.id;
       //  console.log(e.currentTarget);
@@ -10,9 +11,11 @@ $(document).ready(function () {
     $(".headCalendar").click(collapseGlip);
 
     function cargarModal(idCelda) {
+    //  console.log(idCelda);
         var returnedData = $.grep(datos, function (element, index) {
             return element.id == idCelda;
         });
+        //console.log(returnedData);
         if (returnedData[0]){
           $('#myModal').modal('show');
           // $('#divID').css("background-image", "url(/myimage.jpg)");
@@ -33,6 +36,13 @@ $(document).ready(function () {
           $('#myModal').modal('show');
         };
     }
+//Carga la funcinalidad de cambio de Idioma
+  cambiarMainTitles();
+  cargarTituloTalleres(datos);
+  addEvento();
+
+
+
   });
 });
 

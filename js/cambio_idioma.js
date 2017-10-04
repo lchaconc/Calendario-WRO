@@ -1,9 +1,9 @@
 var esp = true;
 
-$(function() {
-  cambiarMainTitles();
-  addEvento();
-});
+// $(function() {
+//   cambiarMainTitles();
+//   addEvento();
+// });
 
 
 function addEvento() {
@@ -51,7 +51,7 @@ function cambiarMainTitles() {
 
 
   }else {
-    $(".main-title").text("WORKSHOP SCHEDULE");
+    $(".main-title").text("WORKSHOPS SCHEDULE");
     $("#btnCambiarIdioma").text("A Español");
     $(".place").text("PLACE");
     $(".inMorning").text("MORNING");
@@ -71,5 +71,34 @@ function cambiarMainTitles() {
     $(diasTaller[1]).text("Saturday");
     $(diasTaller[2]).text("Sunday");
   }
+
+}
+
+
+function cargarTituloTalleres(arreglo) {
+
+  var titulosHtml = $(".enlace-modal"),
+  maxTitulos = titulosHtml.length,
+  maxArreglo = arreglo.length,
+  tituloId;
+
+  // console.log(arreglo[1].taller);
+  // console.log(titulosHtml[1].id);
+
+  for (var i = 0; i < maxTitulos; i++) {
+    console.log(titulosHtml[i].id);
+    for (var n = 0; n < maxArreglo; n++) {
+      tituloId = titulosHtml[i].id.slice(0, 3);
+        if (tituloId == arreglo[n].id) {
+            $(titulosHtml[i]).text(arreglo[n].taller);
+            console.log(titulosHtml[i].id);
+            console.log(arreglo[n].taller);
+        }
+
+    }
+
+}
+
+
 
 }
