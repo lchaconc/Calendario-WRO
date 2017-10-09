@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
     $(".headCalendar").click(collapseGlip);
 
-    //CArga la información del modal con  
+    //CArga la información del modal con
 
 //Carga la funcinalidad de cambio de Idioma
   dataEsp = datos;
@@ -27,11 +27,13 @@ function collapseGlip() {
       // The collapsible content is now fully shown.');
       $(elementSpan).removeClass("glyphicon-plus");
       $(elementSpan).addClass("glyphicon-minus");
+
   });
   $(".collapse").on('hidden.bs.collapse', function(){
       // 'The collapsible content is about to be hidden
       $(elementSpan).removeClass("glyphicon-minus");
       $(elementSpan).addClass("glyphicon-plus");
+
   });
 }
 
@@ -40,7 +42,7 @@ function loadJasonEnglish() {
   $.getJSON( "data/datos_english.json", function( dIngles ) {
     // callback
     dataEng = dIngles;
-    console.log("json en inglés cargado");
+    //console.log("json en inglés cargado");
     caragarIdioma();
     addEvento();
   });

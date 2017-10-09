@@ -3,7 +3,7 @@
 function addEvento() {
   $("#btnCambiarIdioma").click(function () {
       esp=!esp;
-      console.log(esp);
+      //console.log(esp);
       cambiarMainTitles();
       cargarTituloTalleres();
   })
@@ -22,8 +22,8 @@ function cambiarMainTitles() {
     $(".main-title").text("CALENDARIO DE TALLERES");
     $("#btnCambiarIdioma").text("To English");
     $(".place").text("LUGAR");
-    $(".inMorning").text("MAÑANA");
-    $(".inEvening").text("TARDE");
+    $(".inMorning").html("MAÑANA <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
+    $(".inEvening").html("TARDE <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
 
     $(".text-intro").text("8:00 am Recibimiento y acreditación de participantes");
     //Nombre de salas de la mañana
@@ -46,8 +46,8 @@ function cambiarMainTitles() {
     $(".main-title").text("WORKSHOPS SCHEDULE");
     $("#btnCambiarIdioma").text("A Español");
     $(".place").text("PLACE");
-    $(".inMorning").text("MORNING");
-    $(".inEvening").text("EVENING");
+    $(".inMorning").html("MORNING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
+    $(".inEvening").html("EVENING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".text-intro").text("8:00 am Participant registration and accreditation");
     for (var i = 0; i < maxSalasM; i++) {
       num++;
@@ -66,16 +66,17 @@ function cambiarMainTitles() {
 
 }
 
+
 function cargarTituloTalleres() {
     var titulosHtml = $(".enlace-modal"),
     maxTitulos = titulosHtml.length, tituloId;
 
     if (esp) {
-      console.log("Modo Español");
+      //console.log("Modo Español");
       arreglo = dataEsp;
     }else {
       arreglo = dataEng;
-      console.log("Modo Inglés");
+    //  console.log("Modo Inglés");
     };
      maxArreglo = arreglo.length;
 
@@ -96,10 +97,10 @@ function cargarTituloTalleres() {
 }
 
 function cargarModal(idCelda) {
-  console.log(idCelda);
-  console.log(arreglo);
 //  console.log(idCelda);
-  console.log("Cargando información del modal");
+//  console.log(arreglo);
+//  console.log(idCelda);
+//  console.log("Cargando información del modal");
     var returnedData = $.grep(arreglo, function (element, index) {
         return element.id == idCelda;
     });
@@ -127,7 +128,7 @@ function cargarModal(idCelda) {
                             "<p><strong>Schedule:</strong> "+returnedData[0].schedule+"</p>"+
                             "<p><strong>Spot:</strong> "+returnedData[0].spot+"</p>"+
                             "<p><strong>Language:</strong> "+returnedData[0].language+"</p>"+
-                            "<p><strong>Comments:</strong> "+returnedData[0].comments+"</p>";  
+                            "<p><strong>Comments:</strong> "+returnedData[0].comments+"</p>";
               }
           // if(returnedData[0].adjuntos !="")
           //   {texto = texto+"<p><strong>Adjuntos:</strong> "+returnedData[0].adjuntos+"</p>";}
