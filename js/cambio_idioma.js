@@ -9,13 +9,10 @@ function addEvento() {
   })
 }
 
-
 function caragarIdioma() {
   cambiarMainTitles();
   cargarTituloTalleres();
 }
-
-
 
 function cambiarMainTitles() {
   var salaM = $(".salaM"),  salaT = $(".salaT"),
@@ -69,17 +66,17 @@ function cambiarMainTitles() {
 
 }
 
-
 function cargarTituloTalleres() {
-    var titulosHtml = $(".enlace-modal"), arreglo,
+    var titulosHtml = $(".enlace-modal"),
     maxTitulos = titulosHtml.length, tituloId;
 
     if (esp) {
+      console.log("Modo Español");
       arreglo = dataEsp;
     }else {
-      arreglo = dataEng;      
+      arreglo = dataEng;
+      console.log("Modo Inglés");
     };
-     console.log(arreglo);
      maxArreglo = arreglo.length;
 
   // console.log(arreglo[1].taller);
@@ -96,4 +93,46 @@ function cargarTituloTalleres() {
       }
     }
   }
+}
+
+function cargarModal(idCelda) {
+  console.log(idCelda);
+  console.log(arreglo);
+//  console.log(idCelda);
+  console.log("Cargando información del modal");
+    var returnedData = $.grep(arreglo, function (element, index) {
+        return element.id == idCelda;
+    });
+    //console.log(returnedData);
+    if (returnedData[0]){
+      $('#myModal').modal('show');
+      // $('#divID').css("background-image", "url(/myimage.jpg)");
+      // $('#myModal').css('background-image','url(image/fondo-dia1.png) repeat');
+      $('#myModal').on('show.bs.modal', function (event) {var modal = $(this)
+          modal.find('.modal-title').text(returnedData[0].taller);
+              if (esp) {
+                var texto = "<p><strong>Institución:</strong> "+returnedData[0].institucion+"</p>"+
+                            "<p><strong>Descripción:</strong> "+returnedData[0].descripcion+"</p>"+
+                            "<p><strong>Audiencia:</strong> "+returnedData[0].audiencia+"</p>"+
+                            "<p><strong>Requisitos:</strong> "+returnedData[0].requisitos+"</p>"+
+                            "<p><strong>Horario:</strong> "+returnedData[0].horario+"</p>"+
+                            "<p><strong>Cantidad de participantes:</strong> "+returnedData[0].cantidad+"</p>"+
+                            "<p><strong>Idioma:</strong> "+returnedData[0].idioma+"</p>"+
+                            "<p><strong>Observaciones:</strong> "+returnedData[0].observaciones+"</p>";
+              } else {
+                var texto = "<p><strong>Institution:</strong> "+returnedData[0].Institution+"</p>"+
+                            "<p><strong>Description:</strong> "+returnedData[0].description+"</p>"+
+                            "<p><strong>Audience:</strong> "+returnedData[0].audience+"</p>"+
+                            "<p><strong>Requeriments:</strong> "+returnedData[0].requeriments+"</p>"+
+                            "<p><strong>Schedule:</strong> "+returnedData[0].schedule+"</p>"+
+                            "<p><strong>Spot:</strong> "+returnedData[0].spot+"</p>"+
+                            "<p><strong>Language:</strong> "+returnedData[0].language+"</p>"+
+                            "<p><strong>Comments:</strong> "+returnedData[0].comments+"</p>";  
+              }
+          // if(returnedData[0].adjuntos !="")
+          //   {texto = texto+"<p><strong>Adjuntos:</strong> "+returnedData[0].adjuntos+"</p>";}
+          modal.find('.modal-body').html(texto);
+      });
+      $('#myModal').modal('show');
+    };
 }
