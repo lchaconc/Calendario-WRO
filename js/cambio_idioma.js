@@ -120,7 +120,7 @@ function cargarModal(idCelda) {
                             "<p><strong>Idioma:</strong> "+returnedData[0].idioma+"</p>"+
                             "<p><strong>Observaciones:</strong> "+returnedData[0].observaciones+"</p>";
               } else {
-                var texto = "<p><strong>Institution:</strong> "+returnedData[0].Institution+"</p>"+
+                var texto = "<p><strong>Institution:</strong> "+returnedData[0].institution+"</p>"+
                             "<p><strong>Description:</strong> "+returnedData[0].description+"</p>"+
                             "<p><strong>Audience:</strong> "+returnedData[0].audience+"</p>"+
                             "<p><strong>Requeriments:</strong> "+returnedData[0].requeriments+"</p>"+
