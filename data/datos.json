@@ -122,14 +122,14 @@
   {
     "id":"v11",
     "institucion":"Universidad Estatal a Distancia",
-    "taller":"Conozcamos la Robótica: Seguidor en línea (UNED)",
-    "descripcion":"Uso de tecnologías abiertas (Arduino, Makey-Makey, wearables) en el desarrollo de proyectos que contengan elementos científicos, tecnológicos y artísticos y que apoyen diversas áreas del conocimiento.",
-    "audiencia": "Escolares",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"",
-    "idioma":"",
-    "observaciones":""
+    "taller":"Conozcamos la Robótica: (UNED)",
+    "descripcion":"Este taller se orienta a que las y los participantes programen un robot para cumplir con diversos retos. Durante esta experiencia conocerán los aspectos básicos de la robótica y la programación, como por ejemplo, partes de un robot, algoritmo, decisiones y ciclos. Además de esos y otros conceptos, deberán aplicar las normas necesarias para el trabajo con el kit de robótica de la marca LEGO.",
+    "audiencia": "Niños, jóvenes y adultos. Desde 10 años hasta 70.",
+    "requisitos":"Conocimiento básico del SO Windows. - Interés en aprender acerca de robótica y programación. - Actitud positiva para superar retos.",
+    "horario":"Viernes 10 de 1:00 pm a 3:00 pm",
+    "cantidad":"16 personas(español) 4 personas(inglés)",
+    "idioma":"Español-inglés",
+    "observaciones": "Esto es lo parte de un reto… <a href=https://youtu.be/23sM5SdQt9k target='_blank'>VIDEO</a>"
   },
   {
     "id":"v12",
@@ -302,14 +302,14 @@
   {
     "id":"v1a",
     "institucion":"Universidad Estatal a Distancia",
-    "taller":"Colores y robots (UNED)",
-    "descripcion":" Este es una taller ......",
-    "audiencia": "",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"",
-    "idioma":"",
-    "observaciones":""
+    "taller":"Conozcamos la Robótica (UNED)",
+    "descripcion":"Este taller se orienta a que las y los participantes programen un robot para cumplir con diversos retos. Durante esta experiencia conocerán los aspectos básicos de la robótica y la programación, como por ejemplo, partes de un robot, algoritmo, decisiones y ciclos. Además de esos y otros conceptos, deberán aplicar las normas necesarias para el trabajo con el kit de robótica de la marca LEGO. ",
+    "audiencia": "Niños, jóvenes y adultos. Desde 10 años hasta 70.",
+    "requisitos":"Manejo básico del SO Windows. - Interés en aprender acerca de robótica y programación. - Actitud positiva para superar retos",
+    "horario":"<br> Sesión 2: 9:00 a 12:00 <br>  Sesión 3:  13:00 a 16:00",
+    "cantidad":"16 personas(español) 4 personas(inglés)",
+    "idioma":"Español - Inglés",
+    "observaciones":"Esto es lo parte de un reto… <a href=https://youtu.be/23sM5SdQt9k target='_blank'>VIDEO</a>"
   },
   {
     "id":"vti",
