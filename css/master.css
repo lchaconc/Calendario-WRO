@@ -24,7 +24,6 @@
 
 .lenguaje {
     max-width: 100%;
-    /*width: 20%;*/
     float: right;
     margin-top: -1.6%;
 }
@@ -59,6 +58,13 @@ thead tr th {
   color: white;
   font-weight: bold;
 }
+
+.salaT, .salaM {
+  word-break: keep-all;
+  padding: 0px!important;
+  width: auto;
+}
+
 #dia1 thead tr {
   background-color: #1f9bd9;
 }
@@ -74,12 +80,32 @@ thead tr th {
     text-align: center;
 }
 
-#dia1 .table-bordered>tbody>tr>td.enlace-modal {
-  background-color: #7dc4e2;
+.table-bordered>tbody>tr>td.enlace-modal {
+    background-color: #7dc4e2;
+    width: 32%;
+    vertical-align: middle;
 }
+
+#myTable22>tbody>tr.dif td.enlace-modal {
+    width: 20%!important;
+}
+
+#myTable23 tbody tr td, #myTable23 thead tr th{
+    width: 20%;
+}
+
+#myTable3>tbody>tr>td.enlace-modal, #myTable33>tbody>tr>td{
+    width: 95%;
+}
+
+#dia1 .table-bordered>tbody>tr>td.enlace-modal {
+    background-color: #7dc4e2;
+}
+
 #dia2 .table-bordered>tbody>tr>td.enlace-modal {
   background-color: #bcd788;
 }
+
 #dia3 .table-bordered>tbody>tr>td.enlace-modal {
   background-color: #f7bc7c;
 }
