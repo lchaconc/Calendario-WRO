@@ -62,61 +62,61 @@
   {
     "id":"v60",
     "institution":"National Instruments",
-    "taller":"Taller Práctico de LabVIEW",
-    "description":"Un taller práctico de LabVIEW para conocer el ambiente de desarrollo y los componentes básicos de programación. Podría ser de una o tres horas.",
-    "audience": "Universitarios y Tutores de Robótica",
-    "requeriments":"",
-    "schedule":"",
-    "spot":"",
-    "language":"",
-    "comments":"El taller puede ser de 1 ó 3 horas"
+    "taller":"LabVIEW Hands On Seminar (NI)",
+    "description":"An introduction to graphical programming with LabVIEW. Learn how to create an application with a user interface and capable of storing data and generating reports.",
+    "audience": "College students, professors and tutors.",
+    "requeriments":"Basic knowledge of electronics",
+    "schedule":"9 am - 12 pm",
+    "spot":"20",
+    "language":"Spanish",
+    "comments":""
   },
   {
     "id":"v70",
     "institution":"National Instruments",
-    "taller":"Taller Práctico de MyRIO",
-    "description":"Un taller práctico para conocer el myRIO y el ambiente de programación en LabVIEW.",
-    "audience": "Colegiales y Universitarios",
-    "requeriments":"",
-    "schedule":"",
-    "spot":"",
-    "language":"",
-    "comments":"El taller dura 1 hora"
+    "taller":"MyRIO Hands On Seminar (NI)",
+    "description":"Learn about sensors and basic components with the NI myRIO, a powerful device being used for teaching and learning engineering concepts, and capable of many different applications.",
+    "audience": "College students, professors and tutors.",
+    "requeriments":"Basic knowledge of electronics",
+    "schedule":"<br> session 1: Friday 2 - 4 pm <br> session 2: Saturday 2 - 4 pm" ,
+    "spot":"20",
+    "language":"Spaish",
+    "comments":""
   },
   {
     "id":"v80",
     "institution":"National Instruments",
-    "taller":"Examen de Certificación de Desarrollador de LabVIEW Asociado (CLAD)",
-    "description":"TENTATIVO: Sólo por invitación y/o previa aprobación.  Las personas que quieren presentar el examen tendrían que demostrar su previo conocimiento de LabVIEW. Examen de 1 hora.",
-    "audience": "Universitarios y Tutores de Robótica",
-    "requeriments":"",
-    "schedule":"",
-    "spot":"",
-    "language":"",
-    "comments":""
+    "taller":"Prepare for the CLAD certification exam (NI)",
+    "description":"NI’s certifications allow you to show and validate your skills and experience. A Certified LabVIEW Associate Developer is someone who has broad understanding of the programming environment and is able to read and interpret existing code. Attend this session as part of preparation for the exam.",
+    "audience": "College students, robotics tutors.",
+    "requeriments":"Basic knowledge of the LabVIEW Development Environment.",
+    "schedule":"Saturday 4 - 5 pm",
+    "spot":"20",
+    "language":"Spanish-English",
+    "comments":"This is not an introductory course, it is meant for people who are somewhat familiar with LabVIEW."
   },
   {
     "id":"v90",
     "institution":"National Instruments",
-    "taller":"STEM: Inspirando la creatividad en su niño/niña para resolver los problemas de mañana",
-    "description":"Un seminario para los padres y tutores sobre como se puede promover el interés de sus niños en la ciencia, tecnología , ingeniería y matemáticas.",
+    "taller":"STEM: Inspiring creativity in your child to solve the challenges of the future. (NI)",
+    "description":"A seminar for parents and tutors about how to promote children’s interest in science, technology, engineering and math.",
     "audience": "Periodistas y Público en general",
-    "requeriments":"",
-    "schedule":"",
-    "spot":"",
-    "language":"",
-    "comments":"Sesión de una hora."
+    "requeriments":"General Public",
+    "schedule":"<br>session 1: Friday 1 - 2 pm <br> session 2: Saturday 1 - 2 pm",
+    "spot":"20",
+    "language":"Spanish",
+    "comments":""
   },
-  {
+ {
     "id":"v1t",
-    "institution":"Universidad Técnica Nacional",
-    "taller":"Interacción Humano-Robot en un ambiente común",
-    "description":"Not available",
-    "audience": "Colegiales y universitarios",
-    "requeriments":"",
-    "schedule":"",
-    "spot":"",
-    "language":"",
+    "institution":"Quirós Tanzi Foundation",
+    "taller":"Programming Marathon (QT Foundation)",
+    "description":"Collaborative space in which the creation and programming of a robot that will solve a real situation will be presented to the participants, using the Scratch programming language and other tools.",
+    "audience": "Adults and children",
+    "requeriments":"Any",
+    "schedule":"10, Friday. 1:00 pm - 3:30 pm",
+    "spot":"30",
+    "language":"Spanish",
     "comments":""
   },
   {
@@ -222,7 +222,7 @@
     "description":"<br><ul><li>Do you like technology?</li><li>Are you one of those people who like to explore, play and discover new things?</li><li>Today, It´s time to explore!</li><li>Augmented Reality, 3D Videos, Holograms and Virtual Reality, all at your fingertips by using tablets and cell phones.</li><li>Come and explore with us.</li></ul>",
     "audience": "Elementary children",
     "requeriments":"Enthusiasm for exploring new technologies",
-    "schedule":"10, Friday, evening ",
+    "schedule":" Friday: 3 sessions in the evening - Saturday: 3 sessions in the morning",
     "spot":"20",
     "language":"Spanish - English",
     "comments":""
@@ -306,7 +306,7 @@
     "description":"This workshop is oriented to make the students programming a robot to achieve some challenges. During this experience, participants will learn about basics aspects of robotics and programming like: robot´s parts, algorithms, decisions and loops. Besides those and other concepts, students will must apply the needed rules for the work with LEGO´s robotics kit.",
     "audience": "Children, teenagers and adults. From 10 to 70 years old.",
     "requeriments":"Basic knowing of Windows OS. - Interesting in learn about robotics and programming. - Positive attitude to achieve challenges",
-    "schedule":"<br>Sesion 2: Saturday 11th from 9hrs to 12hrs <br> Sesion 3: Saturday 11th from 13hrs to 16hrs",
+    "schedule":"<br>session 2: Saturday 11th from 9hrs to 12hrs <br> session 3: Saturday 11th from 13hrs to 16hrs",
     "spot":"16 people (Spanish) - 4 people (English)",
     "language":"Spanish-English",
     "comments":"This is part of a challenge… <a href=https://youtu.be/23sM5SdQt9k target='_blank'>VIDEO</a>"
@@ -320,7 +320,7 @@
     "requeriments":"Basic background knowledge in programming",
     "schedule":"Sunday 9 am to 12 pm",
     "spot":"20",
-    "language":"Español",
+    "language":"Spanish",
     "comments":""
   },
   {
@@ -334,5 +334,17 @@
     "spot":"20",
     "language":"Español",
     "comments":""
+  },
+  {
+    "id":"vmo",
+    "institution":"Dirección de Recursos Tecnológicos  - MEP",
+    "taller":"Digital applications for the efficient use of your cell phone (MEP)",
+    "description":"Se trabajarán tres aplicaciones para que los participantes utilicen aplicaciones gratuitas de comunicación de la forma más eficiente.",
+    "audience": "general public",
+    "requeriments":"To have a smart phone",
+    "schedule":"<br> Session 1: Sunday 9 am – 10:30 am <br> Session 2: Sunday 10:35 am – 12:00 pm",
+    "spot":"20",
+    "language":"Spanish",
+    "comments":"Two workshops for an hour and a half."
   }
 ]
