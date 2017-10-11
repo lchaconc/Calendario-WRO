@@ -320,7 +320,7 @@
     "requeriments":"Basic background knowledge in programming",
     "schedule":"Sunday 9 am to 12 pm",
     "spot":"20",
-    "language":"Español",
+    "language":"Spanish",
     "comments":""
   },
   {
@@ -334,5 +334,17 @@
     "spot":"20",
     "language":"Español",
     "comments":""
+  },
+  {
+    "id":"vmo",
+    "institution":"Dirección de Recursos Tecnológicos  - MEP",
+    "taller":"Digital applications for the efficient use of your cell phone (MEP)",
+    "description":"Se trabajarán tres aplicaciones para que los participantes utilicen aplicaciones gratuitas de comunicación de la forma más eficiente.",
+    "audience": "general public",
+    "requeriments":"To have a smart phone",
+    "schedule":"<br> Session 1: Sunday 9 am – 10:30 am <br> Session 2: Sunday 10:35 am – 12:00 pm",
+    "spot":"20",
+    "language":"Spanish",
+    "comments":"Two workshops for an hour and a half."
   }
 ]
