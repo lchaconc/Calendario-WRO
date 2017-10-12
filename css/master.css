@@ -13,6 +13,11 @@
   background-color: #002538;
 }
 
+.img-rounded {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .well img {
     max-width: 100%;
     width: 20%;
