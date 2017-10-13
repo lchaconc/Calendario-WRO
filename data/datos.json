@@ -90,7 +90,7 @@
     "descripcion":"El robot consiste en un juego programado construido con el sistema mecánico Eje Planetario. El juego funciona al azar y evalúa la escogencia del participante con un sensor de color.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"11 - 12md",
+    "horario":"1 - 2pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img34.jpg'>"
@@ -102,7 +102,7 @@
     "descripcion":"Consiste en transportar el chocolate ya elaborado en un mecanismo de banda transportadora, para luego ser pasado a un carrito y llevarlos a los supermercados.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"11 - 12md",
+    "horario":"2 - 3pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img35.jpg'>"
@@ -114,7 +114,7 @@
     "descripcion":"Consiste en representar la automatización de las mismas por medio de un sensor ultrasónico que detecta a las personas a cierta distancia.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"11 - 12md",
+    "horario":"3 - 4pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img36.jpg'>"
@@ -126,7 +126,7 @@
     "descripcion":"Son dos robots móviles que se comunican entre sí mediante bluetooth. Uno de los robots utiliza el sensor de color para guiarse por una línea. El segundo robot acciona una manguera de agua que apaga incendios en función del color que detecte.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"1 - 2pm",
+    "horario":"9 - 10am",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img41.jpg'>"
@@ -138,7 +138,7 @@
     "descripcion":"El robot tiene como función explorar espacios desconocidos, con la ayuda de una cámara incorporada en su construcción.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"2 - 3pm",
+    "horario":"10 - 11am",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img42.jpg'>"
@@ -150,7 +150,7 @@
     "descripcion":"El robot tiene como función limpiar la piña mediante un proceso de lavado y transportarla a la máquina empacadora.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"11 - 12md",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img43.jpg'>"
@@ -162,7 +162,7 @@
     "descripcion":"El robot tiene como función ayudar a personas con discapacidad. Además de su desplazamiento acciona dos mecanismos para levantar las cosas (Palanca-tornillo) y (Sinfín-cremallera).",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"1 - 2pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img44.jpg'>"
@@ -174,7 +174,7 @@
     "descripcion":"Las estudiantes diseñaron un sistema mecánico con un torno cuerda-polea y una palanca. Además trabajaron con dos sensores de contacto y uno ultrasónico para controlar el ascenso y descenso.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"2 - 3pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img45.jpg'>"
@@ -198,7 +198,7 @@
     "descripcion":"Es un robot explorador montacargas inteligente, que se activa mediante un sensor de contacto y que al detectar la proximidad de un objeto mediante el sensor ultrasónico se detiene y su montacargas, elaborado con un sistema de poleas, recoge y sube la carga mediante un sensor de color.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"9 - 10am",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img51.jpg'>"
@@ -210,7 +210,7 @@
     "descripcion":"En este proyecto se abarcan temas relacionados con la atención a personas no videntes, presentando como problema la necesidad que tiene la población con compromiso visual, para poder desplazarse de forma autónoma.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"10 - 11am",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img52.jpg'>"
@@ -234,7 +234,7 @@
     "descripcion":"El robot cuenta con sensor de color para su funcionamiento, cuando detecta el color rojo va hacia arriba y cuando detecta simultáneamente el color amarillo, y una temperatura alta se detiene. <br> Robot móvil con bandas que permiten su movimiento. Este robot cumple con la función de explorar ambientes desconocidos y atrapar los objetos que estén a cierta distancia.",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"Ninguno",
-    "horario":"3 - 4pm",
+    "horario":"1 - 2pm",
     "cantidad":"16",
     "idioma":"Español",
     "observaciones":"<img class='img-rounded img-responsive' src='img_fod/img54.jpg'>"
@@ -433,15 +433,15 @@
   },
   {
     "id":"vte",
-    "institucion":"MEP",
-    "taller":"Tecnoaprender",
-    "descripcion":" Este es un taller......",
-    "audiencia": "",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"",
-    "idioma":"",
-    "observaciones":""
+    "institucion":"Ministerio de Educación Pública - DRTE",
+    "taller":"Tecnoaprender (MEP - DRTE)",
+    "descripcion":"Exposiciones relacionadas con el Programa Nacional de Tecnologías Móviles. Lideradas por la Dirección de Tecnologías Móviles del Ministerio de Educación Pública",
+    "audiencia": "Todo público",
+    "requisitos":"Ninguno",
+    "horario":"Domingo 9am - 12md",
+    "cantidad":"20",
+    "idioma":"español",
+    "observaciones":"<a href='http://www.mep.go.cr/programas-y-proyectos/tecnoaprender' target='_blank'> Más información</a>"
   },
   {
     "id":"vb1",

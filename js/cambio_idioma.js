@@ -26,6 +26,7 @@ function cambiarMainTitles() {
     $(".inEvening").html("TARDE <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
 
     $(".text-intro").text("8:00 am Recibimiento y acreditación de participantes");
+    $("#celdaCierre").text("Cierre de la Olimpiada");
     //Nombre de salas de la mañana
     for (var i = 0; i < maxSalasM; i++) {
       num++;
@@ -49,6 +50,7 @@ function cambiarMainTitles() {
     $(".inMorning").html("MORNING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".inEvening").html("EVENING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".text-intro").text("8:00 am Participant registration and accreditation");
+    $("#celdaCierre").text("Closing of the event");
     for (var i = 0; i < maxSalasM; i++) {
       num++;
       $(salaM[i]).text("Room " + num);
