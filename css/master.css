@@ -1,4 +1,3 @@
-
 .container .well
 {
     clear: left;
@@ -91,12 +90,15 @@ thead tr th {
     vertical-align: middle;
 }
 
-#myTable22>tbody>tr.dif td.enlace-modal {
-    width: 20%!important;
+/*tablas del sabado mañana*/
+#myTable22>tbody>tr>td.enlace-modal, #myTable22>tbody>tr>td.sin-modal, #myTable22>thead>tr>th.sin-modal, #myTable23>thead>tr>th.sin-modal
+{
+    width: 16%!important;
 }
 
-#myTable23 tbody tr td, #myTable23 thead tr th{
-    width: 20%;
+#myTable23>tbody>tr>td.enlace-modal, #myTable23>tbody>tr>td.sin-modal, #myTable23>thead>tr>th.sin-modal
+{
+    width: 14%!important;
 }
 
 #myTable3>tbody>tr>td.enlace-modal, #myTable33>tbody>tr>td{
@@ -121,6 +123,7 @@ td.enlace-modal:hover {
   border: 2.5px solid #9d9d9c;
   color: #ffffff;
 }
+
 .nav-tabs {
   font-weight: bold;
 }
