@@ -591,7 +591,7 @@
     "id":"t34",
     "institucion":"Escuela Naciones Unidas, San José ",
     "taller":"Móvil espacial (FOD)",
-    "descripcion":"El robot es un móvil espacial, con la funcionalidad de ser un cargador. Dependiendo del terreno (simulado por colores) el robot subirá su palanca con la carga y realizará un giro. Cuando detecte una pared o un objeto grande se detendrá. Para este autónomo se utilizó el mecanismo “Perillas perpendiculares”, que es el que le permite la tracción al robot, pasando de un movimiento giratorio horizontal (motor) a uno vertical (ruedas).",
+    "descripcion":"El robot es un móvil espacial, con la funcionalidad de ser un cargador. Dependiendo del terreno (simulado por colores) el robot subirá su palanca con la carga y realizará un giro. Cuando detecte una pared o un objeto grande se detendrá. Para este autónomo se utilizó el mecanismo 'Perillas perpendiculares', que es el que le permite la tracción al robot, pasando de un movimiento giratorio horizontal (motor) a uno vertical (ruedas).",
     "audiencia": "Estudiantes de primaria",
     "requisitos":"NA",
     "horario":"Sábado de 2:30 pm - 4:00 pm",
