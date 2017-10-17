@@ -20,7 +20,7 @@ function cambiarMainTitles() {
 
   if (esp) {
     $(".main-title").text("CALENDARIO DE TALLERES");
-    $("#btnCambiarIdioma").text("To English");
+    $("#btnCambiarIdioma").text("Español");
     $(".place").text("LUGAR");
     $(".inMorning").html("MAÑANA <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".inEvening").html("TARDE <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
@@ -45,7 +45,7 @@ function cambiarMainTitles() {
 
   }else {
     $(".main-title").text("WORKSHOPS SCHEDULE");
-    $("#btnCambiarIdioma").text("A Español");
+    $("#btnCambiarIdioma").text("English");
     $(".place").text("PLACE");
     $(".inMorning").html("MORNING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".inEvening").html("EVENING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
