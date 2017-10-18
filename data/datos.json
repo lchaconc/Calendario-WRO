@@ -333,31 +333,31 @@
     "horario":"Viernes 10 de 1:00 pm a 3:00 pm",
     "cantidad":"16 personas(español) 4 personas(inglés)",
     "idioma":"Español-inglés",
-    "observaciones": "Esto es lo parte de un reto… <a href=https://youtu.be/23sM5SdQt9k target='_blank'>VIDEO</a>"
+    "observaciones": "SORPRESA, video juego “virtual antivalores”, Robot Virtual EV3, que debe “quitar” tirando pelotitas unos vasos de ¨plastico¨ que representan antivalores, tiempo 1 minuto para quitar los antivalores. <a href=https://youtu.be/23sM5SdQt9k target='_blank'>VIDEO</a>"
   },
   {
     "id":"v12",
-    "institucion":"Universidad Nacional",
-    "taller":"Juego de Caballería (UNA)",
-    "descripcion":"Programa para juego Robot con 5 vidas que pasea aleatoriamente por un campo con adversarios, se van deteniendo conforme son tocados en su <strong>'escudo'</strong> por otros robots.",
-    "audiencia": "Estudiantes con conocimientos básicos de programación",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"9 a 12, puede ser con EV3 o NXT",
-    "idioma":"",
-    "observaciones":""
+    "institucion":"Universidad Nacional, Escuela de Informática",
+    "taller":"Justas medievales con robots y videojuego (UNA)",
+    "descripcion":"Se trata de “animar una justa medieval” con robots que competirán entre sí y se mueven aleatoriamente, tratando tocar el escudo de cada robot y ganará el robot que quede con vida (Tendrán una 1 de 5 vidas).",
+    "audiencia": "Niños y jóvenes mayores a 11 años para las Justas Medievales y todo público el Video Juego",
+    "requisitos":"Manejo básico de un computador y navegación en windows.",
+    "horario":"<br>Sesión 1:  viernes 9am - 12md <br> Sesión 2: viernes 1pm - 3pm",
+    "cantidad":"20",
+    "idioma":"Español",
+    "observaciones":"SORPRESA: video juego 'virtual antivalores'  <a href='https://www.youtube.com/watch?v=wPN2V7cZSq8&feature=youtu.be' target='_blank'>Video</a>"
   },
   {
-    "id":"v13",
-    "institucion":"Universidad Nacional",
-    "taller":"Seguidor de línea con obstáculos (UNA)",
-    "descripcion":"<br>1. Construcción de robot 2MinuteBotObstaculos <br > 2. Programación de seguidor de línea con sensor color y detección de objetos (vasos plásticos 16oz)<br> 3. Pista para realizar competencia",
-    "audiencia": "Público en general",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"Se trabajará con un grupo de 20 personas, con 5 kits Ev3, se requieren 5 mesas para colocar 3 personas por mesa y los equipos EV3",
-    "idioma":"",
-    "observaciones":""
+    "id":"v81",
+    "institucion":"Universidad Nacional, Escuela de Informática",
+    "taller":"Explorador que quita obstáculos (UNA)",
+    "descripcion":"Robot EV3, que sigue un camino o línea y debe quitar obstáculos de su camino.",
+    "audiencia": "Niños y jóvenes mayores a 11 años",
+    "requisitos":"Manejo básico de un computador y navegación en windows.",
+    "horario":"<br> Sesión 1: 9am a 12md <br> Sesión 2: 1pm - 3pm",
+    "cantidad":"20",
+    "idioma":"Español",
+    "observaciones":"-"
   },
   {
     "id":"v14",
