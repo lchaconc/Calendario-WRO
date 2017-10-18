@@ -48,7 +48,7 @@ function cambiarMainTitles() {
     $("#btnCambiarIdioma").text("English");
     $(".place").text("PLACE");
     $(".inMorning").html("MORNING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
-    $(".inEvening").html("EVENING <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
+    $(".inEvening").html("AFTERNOON <span  class='glyphicon glyphicon-minus' aria-hidden='true'></span>");
     $(".text-intro").text("8:00 am Participant registration and accreditation");
     $("#celdaCierre").text("Closing of the event");
     for (var i = 0; i < maxSalasM; i++) {
