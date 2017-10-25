@@ -408,17 +408,42 @@
     "observaciones":""
   },
   {
-    "id":"v29",
-    "institucion":"Aprender haciendo",
-    "taller":"Lego Experts (LEGO)",
-    "descripcion":"",
-    "audiencia": "",
-    "requisitos":"",
-    "horario":"",
-    "cantidad":"",
-    "idioma":"",
+    "id":"lv1",
+    "institucion":"LEGO - Aprender haciendo",
+    "taller":"Taller de Objetivos de Desarrollo Sostenible  (LEGO)",
+    "descripcion":"No disponible",
+    "audiencia": "Todo público",
+    "requisitos":"Ninguno",
+    "horario":"<ul><li>Sesión 1: Viernes 9 am - 10 am </li><li> Sesión 2:  Viernes 1 pm - 2 pm</li> <li>Sesión 3: Sábado 9 am - 10 am</li>  <li>Sesión 4: Sábado 1 pm - 2 pm</li> <li>Sesión 5: Domingo 9 am - 10 am</li> </ul>",
+    "cantidad":"-",
+    "idioma":"No disponible",
     "observaciones":""
   },
+    {
+    "id":"lv2",
+    "institucion":"LEGO - Aprender haciendo",
+    "taller":"Taller de STEM (LEGO)",
+    "descripcion":"No disponible",
+    "audiencia": "Todo público",
+    "requisitos":"Ninguno",
+    "horario":"<ul><li>Sesión 1: Viernes 10 am - 12 md </li><li> Sesión 2:  Viernes 2 pm - 4 pm</li> <li>Sesión 3: Sábado 10 am - 11 am</li>  <li>Sesión 4: Sábado 3 pm - 4 pm</li> <li>Sesión 5: Domingo 10 am - 12 md</li>  </ul>",
+    "cantidad":"-",
+    "idioma":"No disponible",
+    "observaciones":""
+  },
+      {
+    "id":"lv3",
+    "institucion":"LEGO - Aprender haciendo",
+    "taller":"My best possible future (LEGO)",
+    "descripcion":"No disponible",
+    "audiencia": "Todo público",
+    "requisitos":"Ninguno",
+    "horario":"<ul><li>Sesión 1: Sábado 11 am - 12 md</li>  <li>Sesión 2: Sábado 2 pm - 3 pm</li>  </ul>",
+    "cantidad":"-",
+    "idioma":"No disponible",
+    "observaciones":""
+  },
+  
   {
     "id":"v17",
     "institucion":"Ministerio de Educación Pública",
@@ -522,7 +547,7 @@
     "descripcion":"Si deseas participar en una feria científica o resolver algún problema en tu comunidad usando tecnología deberías aprender a programar en Arduino.  La ponencia consiste en demostrar cómo se pueden realizar trabajos simples en el aula para ayudar a los estudiantes a pensar en ideas innovadoras para feria científica o resolver cualquier problema. Al final vamos a mostrar kits de robótica en Arduino, los cuales se pueden conseguir en el mercado costarricense, que permiten a estudiantes de cualquier nivel adentrarse en el mundo de la robótica a precios muy bajos.",
     "audiencia": "Mayores de 15 años",
     "requisitos":"Conocimientos básicos en programación",
-    "horario":"Domingo 9am – 12 md",
+    "horario":"<ul> <li>Sesión 1: Domingo 9 am – 10:30 am </li> <li>Sesión 2: Domingo 10:30 am – 12:00 md</li></ul>",
     "cantidad":"20",
     "idioma":"Español",
     "observaciones":""
