@@ -42,11 +42,13 @@ h1
 {
   margin-top: 2px;
 }
+
 .headCalendar {
   cursor: pointer;
   text-shadow: 1px 1px 0 #444;
   color: #002538;
 }
+
 .text-intro {
   color: #636362;
 }
@@ -65,6 +67,7 @@ h1
 #dia3 td{
   background-color: #fbe3c9;
 }
+
 thead tr th {
   color: white;
   font-weight: bold;
@@ -92,24 +95,23 @@ thead tr th {
 }
 
 .table-bordered>tbody>tr>td.enlace-modal {
-    background-color: #7dc4e2;
-    width: 32%;
+    /*background-color: #7dc4e2;*/
     vertical-align: middle;
 }
 
-/*tablas del sabado mañana*/
-#myTable22>tbody>tr>td.enlace-modal, #myTable22>tbody>tr>td.sin-modal, #myTable22>thead>tr>th.sin-modal, #myTable23>thead>tr>th.sin-modal
+/*tablas del sabado en la mañana y domingo*/
+#myTable22>tbody>tr>td.enlace-modal, #myTable22>tbody>tr>td.sin-modal, #myTable22>thead>tr>th.sin-modal,
+#myTable3>tbody>tr>td.enlace-modal, #myTable3>tbody>tr>td.sin-modal, #myTable3>thead>tr>th.sin-modal,
+#myTable33>tbody>tr>td.enlace-modal, #myTable33>tbody>tr>td.sin-modal, #myTable33>thead>tr>th.sin-modal
 {
     width: 16%!important;
 }
 
+
+/*tabla del sabado en la tarde*/
 #myTable23>tbody>tr>td.enlace-modal, #myTable23>tbody>tr>td.sin-modal, #myTable23>thead>tr>th.sin-modal
 {
     width: 14%!important;
-}
-
-#myTable3>tbody>tr>td.enlace-modal, #myTable33>tbody>tr>td{
-    width: 95%;
 }
 
 #dia1 .table-bordered>tbody>tr>td.enlace-modal {
