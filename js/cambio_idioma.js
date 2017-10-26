@@ -1,17 +1,46 @@
 
 
 function addEvento() {
-  $("#btnCambiarIdioma").click(function () {
-      esp=!esp;
-      //console.log(esp);
-      cambiarMainTitles();
-      cargarTituloTalleres();
-  })
+  $("#btnToSpanish").click(function () {
+    toSpanish();
+  });
+  $("#btnToEnglish").click(function () {
+    toEnglish();
+  });
+  $("#btnRegistry").click(function () {
+    abrirFormulario();
+  });
+
 }
+
+
+function toSpanish() {
+  esp=true;
+  cambiarMainTitles();
+  cargarTituloTalleres();
+}
+
+function toEnglish() {
+  esp=false;
+  cambiarMainTitles();
+  cargarTituloTalleres();
+}
+
 
 function caragarIdioma() {
   cambiarMainTitles();
   cargarTituloTalleres();
+}
+
+function abrirFormulario() {
+  console.log("abriendo formulario");
+  var url;
+  if (esp) {
+    url = "https://goo.gl/forms/CG4b4gkXfvUwLlck1";
+  }else {
+    url = "https://goo.gl/forms/PQswC0f4c60fBRJB3";
+  }
+  window.open(url,'','width=600,height=400,left=50,top=50,toolbar=yes, scrollbars=yes');
 }
 
 function cambiarMainTitles() {
@@ -19,6 +48,9 @@ function cambiarMainTitles() {
   maxSalasM=salaM.length, num=0,  diasTaller=$(".diasTaller");
 
   if (esp) {
+    $("#btnToSpanish").attr("src", "images/spanish_enabled.png");
+    $("#btnToEnglish").attr("src", "images/english_disabled.png");
+    $("#btnRegistry").attr("src", "images/registro.png");
     $(".main-title").text("CALENDARIO DE TALLERES");
     $("#btnCambiarIdioma").text("Español");
     $(".place").text("LUGAR");
@@ -41,9 +73,10 @@ function cambiarMainTitles() {
     $(diasTaller[0]).text("Viernes");
     $(diasTaller[1]).text("Sábado");
     $(diasTaller[2]).text("Domingo");
-
-
   }else {
+    $("#btnToSpanish").attr("src", "images/spanish_disabled.png");
+    $("#btnToEnglish").attr("src", "images/english_enabled.png");
+    $("#btnRegistry").attr("src", "images/registry.png");
     $(".main-title").text("WORKSHOPS SCHEDULE");
     $("#btnCambiarIdioma").text("English");
     $(".place").text("PLACE");
